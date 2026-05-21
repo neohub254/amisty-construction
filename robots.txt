@@ -1,0 +1,17 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Specify sitemap location
+Sitemap: https://amisty.co.ke/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 10
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
